@@ -20,3 +20,5 @@ interface FooterProps  {
   studentId: string | number;
 };
 export type { FooterProps  };
+
+

@@ -1,3 +1,6 @@
+import type { TaskCardProps } from "../libs/type";
+
+
 export default function TaskCard({ title, description, isDone }: TaskCardProps) {
   const status = isDone ? "line-through" : "";
 
